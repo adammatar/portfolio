@@ -1,6 +1,6 @@
 # Adam Matar's Portfolio
 
-A modern, responsive portfolio website built with React, TypeScript, and TailwindCSS.
+A modern, responsive portfolio website built with React, TypeScript, and styled-components.
 
 ## Features
 
@@ -9,17 +9,18 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - 📱 Fully responsive
 - ⚡ Fast and optimized performance
 - 🎭 Smooth animations with Framer Motion
-- 📝 Contact form
+- 📝 Contact form with API integration
 - 🚀 SEO optimized
 
 ## Tech Stack
 
 - React
 - TypeScript
-- TailwindCSS
+- styled-components
 - Framer Motion
 - React Router
 - React Hook Form
+- Vite
 
 ## Getting Started
 
@@ -32,7 +33,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/adammatar/portfolio.git
 cd portfolio
 ```
 
@@ -58,8 +59,7 @@ yarn dev
 src/
 ├── components/     # Reusable UI components
 ├── pages/         # Page components
-├── hooks/         # Custom React hooks
-├── utils/         # Utility functions
+├── styles/        # Styled-components and theme
 ├── assets/        # Static assets
 └── types/         # TypeScript type definitions
 ```
@@ -67,17 +67,17 @@ src/
 ## Customization
 
 1. Update personal information in the respective page components
-2. Modify the color scheme in `tailwind.config.js`
+2. Modify the color scheme in `src/styles/theme.ts`
 3. Add or remove projects in the Projects page
 4. Update social media links in the Footer and Contact components
 
 ## Deployment
 
-The portfolio can be easily deployed to platforms like Vercel, Netlify, or GitHub Pages.
+The portfolio is deployed on Vercel and can be accessed at [https://adammatar.vercel.app](https://adammatar.vercel.app).
 
 ### Vercel Deployment
 
-1. Push your code to a GitHub repository
+1. Push your code to GitHub repository
 2. Import the project in Vercel
 3. Configure the build settings:
    - Build Command: `npm run build`
@@ -94,6 +94,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Adam Matar - [your.email@example.com](mailto:your.email@example.com)
+Adam Matar - [mataradam@gmail.com](mailto:mataradam@gmail.com)
 
-Project Link: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio)
+- GitHub: [https://github.com/adammatar](https://github.com/adammatar)
+- LinkedIn: [https://www.linkedin.com/in/adammatar](https://www.linkedin.com/in/adammatar)
+- Portfolio: [https://adammatar.vercel.app](https://adammatar.vercel.app)
